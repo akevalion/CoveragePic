@@ -1,0 +1,25 @@
+name: 'CoveragePic'
+description: 'To get the coverage of a project'
+inputs:
+  baseline:  # id of input
+    description: 'The baseline name of the project to test'
+    required: true
+    default: '.'
+  group:  # id of input
+    description: 'The baseline group to load'
+    required: false
+    default: 'default'
+  tests: # id of input
+    description: 'A string to run a group of tests, separated by commas'
+    required: true
+    default: '.'
+  pharo: # id of input
+    description: 'A pharo version, can be pharo9, pharo10 or pharo11'
+    required: false
+    default: '64/alpha+vm'
+outputs:
+  time: 
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
