@@ -1,7 +1,7 @@
 Class {
 	#name : #CoverageWithErrorsTest,
 	#superclass : #TestCase,
-	#category : #'Collections-Support-Tests-CoveragePic-Tests'
+	#category : #'Morphic-Test-CoveragePic'
 }
 
 { #category : #tests }
