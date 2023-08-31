@@ -67,7 +67,7 @@ m nodes: profiler packages forEach: [ :pak |
 m build.
 
 lbl := RSLabel text: 'Ratio of covered methods = ', (profiler coverage asString), ' %'. 
-RSLocation new move: lbl above: m canvas nodes.
+RSLocation new above; move: lbl on: m canvas nodes.
 m canvas add: lbl.
 
 m canvas extent: (1500 @ 1500).
