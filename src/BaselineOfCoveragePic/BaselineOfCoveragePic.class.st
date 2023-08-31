@@ -8,7 +8,7 @@ Class {
 BaselineOfCoveragePic >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ | package |
-		package := #'Collections-Support-Tests-CoveragePic-Tests'.
+		package := #'Morphic-Test-CoveragePic'.
 		spec package: package.
 		spec group: #default with: { package }
 	].
