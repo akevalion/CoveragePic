@@ -76,7 +76,7 @@ m canvas extent: (1500 @ 1500).
   canvas: m canvas;
   exportToFile: '/tmp/coverage.png' asFileReference.
 
-out << 'coverage.png created'; crlf.
+cout << 'coverage.png created'; crlf.
 SmalltalkImage current quitPrimitive
 
 
