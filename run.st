@@ -1,4 +1,4 @@
-| env cout file last repoPath actionRepo baseline group tests currentTime category profiler |
+| classSizeScale classColorCoverage m lbl  env cout file last repoPath actionRepo baseline group tests currentTime category profiler |
 env := Smalltalk os environment.
 cout := Stdio stdout.
 baseline := env at: 'ACTION_BASELINE'.

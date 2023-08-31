@@ -19,5 +19,11 @@ jobs:
         with:
           # removes-repo: ''
           baseline: 'CoveragePic'
+          pharo: 'Pharo11'
           group: 'default'
           tests: 'Morphic-Test*'
+      - name: save artefacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: 'to-download'
+          path: '/tmp/coverage.png'
