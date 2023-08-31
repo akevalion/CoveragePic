@@ -47,7 +47,7 @@ cout << 'Clonning from: '; <<  repoPath; crlf.
 cout << 'Finish baseline `'; << baseline; << '`'; crlf.
 
 currentTime := DateAndTime now.
-cout << 'Spy2 loaded!'; crlf; << 'Starting with Hapao'; crlf.
+cout << 'Spy2 loaded! ' ; crlf; << 'Starting with Hapao'; crlf.
 
 profiler := 'Hapao2' asClass runTestsForPackagesMatching: tests.
 cout <<'Profiler created'; crlf.
