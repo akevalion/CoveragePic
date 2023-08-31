@@ -23,7 +23,7 @@ jobs:
           group: 'default'
           tests: 'Morphic-Test*'
       - name: save artefacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: 'to-download'
           path: '/tmp/coverage.png'
